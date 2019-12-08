@@ -12,3 +12,22 @@ port,service,protocol
 68,dhcp,udp
 69,tftp,udp
 80,http,tcp
+110,pop3,tcp
+119,nntp,tcp
+123,ntp,udp
+143,imap4,tcp
+143,imap4,udp
+161,snmp,tcp
+161,snmp,udp
+162,snmp,tcp
+162,snmp,udp
+443,https,tcp
+443,https,udp
+3389,rdp,tcp
+3389,rdp,udp
+5432,postgresql,tcp
+5601,kibana,tcp
+8443,https,tcp
+8443,https,udp
+9200,elasticsearch(rest),tcp
+9300,elasticsearch(node communication),tcp
