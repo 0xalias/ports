@@ -23,10 +23,63 @@ port,service,protocol
 162,snmp,udp
 443,https,tcp
 443,https,udp
-1433,sql server,tcp
+
+1029,microsoft dcom services,tcp
+1080,socks proxy,tcp
+1085,webobjects,tcp
+1194,openvpn,tcp
+1311,dell openmanage https,tcp
+1337,sails.js default port,tcp
+1414,ibm websphere mq,tcp
+1433,sql server mssql,tcp
+1433,sql server mssql monitor,tcp
+1527,apache derby database,tcp
+1582,ibm tivoli storage manager web client,tcp
+1583,ibm tivoli storage maanger server web interface,tcp
+1666,perforce (p4),tcp
+1688,microsoft key management service for windows activation,tcp
+1883,mqtt,tcp
+1935,real time messaging protocol used in adobe flash,tcp
+1984,big brother,tcp
+2049,nfs (network file system),tcp
+2082,cpanel default non-ssl
+2083,cpanel default ssl,tcp
+2095,cpanel default non-ssl web mail,tcp
+2096,cpanel default ssl web mail,tcp
+2181,apache zookeeper default client port,tcp
+2375,docker rest api non-ssl,tcp
+2376,docker rest api ssl,tcp
+2377,docker swarm cluster management,tcp
+2379,coreos etcd client communication,tcp
+2380,coreos etcd server communication,tcp
+2399,filemaker,tcp
+2401,cvs version control,tcp
+2424,orientdb listening for binary connections,tcp
+2480,orientdb listening for http connections,tcp
+2483,oracle insecure listener (replaces 1521),tcp
+2484,oracle ssl listener,tcp
+2638,sql anywhere server,tcp
+3000,cloud9 ide server,tcp
+3000,ruby on rails development default,tcp
+3128,squid caching proxy,tcp
 3306,mysql,tcp
+3333,cruisecontrol,tcp
 3389,rdp,tcp
 3389,rdp,udp
+3690,subversion (svn),tcp
+3856,erp server application used by f10 software,tcp
+3872,oracle enterprise manager remote agent,tcp
+4222,nats server default port,tcp
+4243,code42 crashplan,tcp
+4444,metasploit default listener port,tcp
+4505,salt master,tcp
+4506,salt master,tcp
+4560,log4j default socketappender port,tcp
+4567,sinatra in dev mode,tcp
+4848,java glassfish app server admin,tcp
+5000,docker registry,tcp
+5000,flask development web server,tcp
+5000,heroku console access,tcp
 5353,multicast dns,udp
 5432,postgresql,tcp
 5601,kibana,tcp
