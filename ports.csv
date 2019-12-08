@@ -23,7 +23,6 @@ port,service,protocol
 162,snmp,udp
 443,https,tcp
 443,https,udp
-
 1029,microsoft dcom services,tcp
 1080,socks proxy,tcp
 1085,webobjects,tcp
@@ -42,7 +41,7 @@ port,service,protocol
 1935,real time messaging protocol used in adobe flash,tcp
 1984,big brother,tcp
 2049,nfs (network file system),tcp
-2082,cpanel default non-ssl
+2082,cpanel default non-ssl,tcp
 2083,cpanel default ssl,tcp
 2095,cpanel default non-ssl web mail,tcp
 2096,cpanel default ssl web mail,tcp
