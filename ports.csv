@@ -23,11 +23,21 @@ port,service,protocol
 162,snmp,udp
 443,https,tcp
 443,https,udp
+1433,sql server,tcp
+3306,mysql,tcp
 3389,rdp,tcp
 3389,rdp,udp
 5432,postgresql,tcp
 5601,kibana,tcp
+6379,redis,tcp
+6380,redis,tcp
 8443,https,tcp
 8443,https,udp
+9060,websphere admin console,tcp
+9080,websphere,tcp
+9092,h2 database,tcp
+9092,kafka,tcp
+9150,tor browser,tcp
 9200,elasticsearch(rest),tcp
 9300,elasticsearch(node communication),tcp
+9389,ms ad ds,tcp
