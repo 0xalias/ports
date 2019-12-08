@@ -1,2 +1,14 @@
 port,service,protocol
+20,ftp,tcp
 21,ftp,tcp
+22,ssh,tcp
+22,ssh,udp
+25,smtp,tcp
+50,ipsec,n/a
+51,ipsec,n/a
+53,dns,tcp
+53,dns,udp
+67,dhcp,udp
+68,dhcp,udp
+69,tftp,udp
+80,http,tcp
