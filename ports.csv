@@ -27,12 +27,45 @@ port,service,protocol
 3306,mysql,tcp
 3389,rdp,tcp
 3389,rdp,udp
+5353,multicast dns,udp
 5432,postgresql,tcp
 5601,kibana,tcp
+5693,nagios,tcp
+5701,hazelcast default communication,tcp
+5984,couchdb,tcp
 6379,redis,tcp
 6380,redis,tcp
+6432,pgbouncer,tcp
+6514,syslog over tls,tcp
+7025,zimbra,tcp
+7047,zimbra,tcp
+7306,zimbra mysql mailbox,tcp
+7307,zimbra mysql logger,tcp
+7474,neo4j server webadmin,tcp
+7990,atlassian bitbucket,tcp
+8000,django,tcp
+8000,aws dynamodb local,tcp
+8005,apache tomcat remote shutdown,tcp
+8008,ibm http server,tcp
+8009,apache jserv protocol (ajp13),tcp
+8080,apache tomcat,tcp
+8080,atlassian jira,tcp
+8089,splunk daemon management,tcp
+8090,atlassian confluence,tcp
+8091,couchbase web amin,tcp
+8092,couchbase api,tcp
+8140,puppet master server,tcp
+8172,ms remote admin for iis manager,tcp
 8443,https,tcp
 8443,https,udp
+8443,apache tomcat,tcp
+8500,adobe coldfusion build-in web server,tcp
+8880,ibm webpshere server soap connector,tcp
+8983,apache solr,tcp
+9000,hadoop namenode web server,tcp
+9000,php-fpm,tcp
+9000,play framework web server,tcp
+9000,sonarqube web server,tcp
 9060,websphere admin console,tcp
 9080,websphere,tcp
 9092,h2 database,tcp
