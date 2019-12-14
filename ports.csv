@@ -91,6 +91,7 @@ port,service,protocol
 6514,syslog over tls,tcp
 7025,zimbra,tcp
 7047,zimbra,tcp
+7077,spark.apache.org master default service listener port,tcp
 7306,zimbra mysql mailbox,tcp
 7307,zimbra mysql logger,tcp
 7474,neo4j server webadmin,tcp
