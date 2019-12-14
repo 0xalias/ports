@@ -138,3 +138,6 @@ port,service,protocol
 18092,memcached internal capi ssl,tcp
 18104,rad pdf service,tcp
 18333,bitcoin testnet,tcp
+27017,mongodb default port for mongod mongos,tcp
+27018,mongodb default port for mongod when running with --shardsvr,tcp
+27019,mongodb default port for mongod when running with --configsvr,tcp
