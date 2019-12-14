@@ -103,6 +103,9 @@ port,service,protocol
 8009,apache jserv protocol (ajp13),tcp
 8080,apache tomcat,tcp
 8080,atlassian jira,tcp
+8080,spark.apache.org web ui for master,tcp
+8081,spark.apache.org web ui for worker,tcp
+8081,springboot management port,tcp
 8089,splunk daemon management,tcp
 8090,atlassian confluence,tcp
 8091,couchbase web amin,tcp
